@@ -2,18 +2,22 @@ import ipc from 'node-ipc';
 
 ipc.config = {
   ...ipc.config,
-  id: 'hello',
+  id: 'client',
   retry: 1000
 };
 
-ipc.connectTo('world', () => {
-  ipc.of.world.on('connect', () => {
-    ipc.of.world.emit('app.message', {
-      message: 'hello'
+ipc.connectTo('server', () => {
+  ipc.of.server.on('connect', () => {
+    ipc.of.server.emit('ping', {
+      message: 'ping'
     });
   });
-  ipc.of.world.on('disconnect', () => {});
-  ipc.of.world.on('app.message', data => {
-    console.log('data', data);
+  ipc.of.server.on('disconnect', () => {});
+  ipc.of.server.on('ping', () => {
+    setTimeout(() => {
+      ipc.of.server.emit('ping', {
+        message: 'ping'
+      });
+    }, 1000);
   });
 });

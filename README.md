@@ -1,6 +1,6 @@
-# unix-socket-demo
+# unix-socket-ping-pong
 
-[![GitHub stars](https://img.shields.io/github/stars/codejamninja/unix-socket-demo.svg?style=social&label=Stars)](https://github.com/codejamninja/unix-socket-demo)
+[![GitHub stars](https://img.shields.io/github/stars/codejamninja/unix-socket-ping-pong.svg?style=social&label=Stars)](https://github.com/codejamninja/unix-socket-ping-pong)
 
 > demonstration of a nodejs unix socket
 
@@ -15,29 +15,29 @@ Please ★ this repo if you found it useful ★ ★ ★
 
 ## Usage
 
-[Contribute](https://github.com/codejamninja/unix-socket-demo/blob/master/CONTRIBUTING.md) usage docs
+[Contribute](https://github.com/codejamninja/unix-socket-ping-pong/blob/master/CONTRIBUTING.md) usage docs
 
 
 ## Support
 
-Submit an [issue](https://github.com/codejamninja/unix-socket-demo/issues/new)
+Submit an [issue](https://github.com/codejamninja/unix-socket-ping-pong/issues/new)
 
 
 ## Contributing
 
-Review the [guidelines for contributing](https://github.com/codejamninja/unix-socket-demo/blob/master/CONTRIBUTING.md)
+Review the [guidelines for contributing](https://github.com/codejamninja/unix-socket-ping-pong/blob/master/CONTRIBUTING.md)
 
 
 ## License
 
-[MIT License](https://github.com/codejamninja/unix-socket-demo/blob/master/LICENSE)
+[MIT License](https://github.com/codejamninja/unix-socket-ping-pong/blob/master/LICENSE)
 
 [Jam Risser](https://codejam.ninja) © 2018
 
 
 ## Changelog
 
-Review the [changelog](https://github.com/codejamninja/unix-socket-demo/blob/master/CHANGELOG.md)
+Review the [changelog](https://github.com/codejamninja/unix-socket-ping-pong/blob/master/CHANGELOG.md)
 
 
 ## Credits
