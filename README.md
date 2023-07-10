@@ -6,6 +6,7 @@
 
 Please ★ this repo if you found it useful ★ ★ ★
 
+![](assets/unix-socket-ping-pong.png)
 
 ## Features
 
